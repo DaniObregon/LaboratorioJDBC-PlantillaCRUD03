@@ -38,7 +38,6 @@ public class Test {
 //            deleteUsuario.setId_usuario(0);
 //            usuarioDAO.delete(deleteUsuario);
 
-            //FIN DE MODIFICACIONES EN DB
             conn.commit();
             System.out.println("Commit done!");
 
